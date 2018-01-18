@@ -1,0 +1,28 @@
+{
+  "name": "ncis",
+  "version": "0.0.1",
+  "description": "ncis(New In Your System) - is a lightweight update list manager, that can be easily integrated into your system to inform your users about new features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unuservize/ncis.git"
+  },
+  "keywords": [
+    "update",
+    "list",
+    "manager"
+  ],
+  "author": "Igor Piskunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unuservize/ncis/issues"
+  },
+  "homepage": "https://github.com/unuservize/ncis#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
